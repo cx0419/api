@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="helloworld.login.LoginController">
+   <children>
+      <ImageView fitHeight="408.0" fitWidth="600.0" layoutY="-7.0">
+         <image>
+            <Image url="@image1/Login_text.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="47.0" layoutX="553.0" layoutY="353.0">
+         <image>
+            <Image url="@image1/二维码.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="93.0" layoutX="249.0" layoutY="48.0">
+         <image>
+            <Image url="@image1/qq.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="155.0" layoutY="165.0" prefHeight="36.0" prefWidth="321.0" />
+      <Button alignment="CENTER" cacheHint="SCALE" layoutX="217.0" layoutY="309.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="138.0" style="-fx-background-color: #48bcff;" text="登录" textFill="WHITE" />
+      <CheckBox layoutX="186.0" layoutY="272.0" mnemonicParsing="false" text="自动登录">
+         <font>
+            <Font size="19.0" />
+         </font></CheckBox>
+      <PasswordField layoutX="154.0" layoutY="213.0" prefHeight="36.0" prefWidth="321.0" />
+      <Label layoutX="108.0" layoutY="171.0" text="账号">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="108.0" layoutY="216.0" text="密码">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <CheckBox layoutX="307.0" layoutY="272.0" mnemonicParsing="false" text="记住密码">
+         <font>
+            <Font size="19.0" />
+         </font></CheckBox>
+      <Button layoutX="6.0" layoutY="357.0" mnemonicParsing="false" style="-fx-background-color: brue;" text="注册账号">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="558.0" layoutY="357.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="38.0" style="-fx-background-color: Brue;" text="二维码" />
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="441.0" layoutY="171.0">
+         <image>
+            <Image url="@image1/24gl-ejectDown.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="436.0" layoutY="166.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="11.0" style="-fx-background-color: Brue;" />
+      <Button layoutX="448.0" layoutY="360.0" mnemonicParsing="false" style="-fx-background-color: Brue;" text="忘记密码？">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
